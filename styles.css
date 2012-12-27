@@ -194,7 +194,7 @@ span.bolder {
 	width: 446px;	
 	margin-left: 496px;
 	background-image: url(images/bluet.png);
-	padding: 15px 15px 0px 15px;
+	padding: 11px 15px 0px 15px;
 	margin-top: 30px;	
 	
 }
@@ -543,14 +543,23 @@ span.bolder {
 
 
 /**CONTACT PAGE */
+
 #page-content #contact-page {
+	overflow: hidden;	
 	margin-top: 35px;
+}
+#page-content #contact-details {
 	margin-left: 28px;
-	width: 900px;
+	width: 200px;
+	float: left;
 }
 
-#page-content #contact-page p {
+#page-content #contact-details p {
 	font-size: 14px;	
+}
+
+#page-content #contact-page #contact-image {
+	margin-left: 270px;	
 }
 
 
@@ -559,23 +568,27 @@ span.bolder {
 	margin-top: 0px;		
 }
 
-#page-content #contact-page h2 {
+#page-content #contact-details h2 {
 	margin-bottom: 0px;	
 	margin-top: 20px;
+	color: #f7941d;
 }
 
-#page-content #contact-page a:link, #page-content #contact-page a:hover, #page-content #contact-page a:visited  {
+#page-content #contact-details a:link, #page-content #contact-page a:hover, #page-content #contact-page a:visited  {
 	font-family: Quicksand, Arial, Helvetica, sans-serif;
 	color:  #7d7d7d;
 	text-decoration: none;
 	font-size: 17px;
 }
 
-#page-content #contact-page p.details {
+#page-content #contact-details p.details {
 	font-family: Quicksand, Arial, Helvetica, sans-serif;
 	color:  #7d7d7d;
 	font-size: 17px;
-	
+}
+
+#page-content #contact-details p.details img {
+	vertical-align: bottom;
 }
 
 
