@@ -593,18 +593,47 @@ span.bolder {
 	margin-left: 28px;	
 }
 
+#page-content #schedule-page h2 {
+	margin-bottom: 6px;	
+	
+}
+
 table {
-	text-align: left;	
+	text-align: left;
+	margin-bottom: 50px;
 }
 
 
 table th {
 	font-family: Quicksand, Arial, Helvetica, sans-serif;
 	font-size: 15px;
-	color: #f7941d;	
+	color: #204e5e;	
 	font-weight: normal;
-	width: 300px;
-	
+	background-color: #B9E7F3;
+	line-height: 25px;
+	padding:10px;
 }
 
+tbody {
+	background-color: #F0EDED;	
+}
+
+tbody td {
+	width: 300px;	
+	line-height: 18px;
+	vertical-align: top;
+	padding: 10px;
+}
+
+tbody td.time, th.time {
+	width: 150px;	
+}
+
+tbody td.event, th.event {
+	width: 200px;	
+}
+
+tbody td.descr, th.descr {
+	width: 400px;	
 	
+}
