@@ -587,7 +587,24 @@ span.bolder {
 }
 
 
+/**SCHEDULE PAGE */
+
+#page-content #schedule-page {
+	margin-left: 28px;	
+}
+
+table {
+	text-align: left;	
+}
 
 
+table th {
+	font-family: Quicksand, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #f7941d;	
+	font-weight: normal;
+	width: 300px;
+	
+}
 
 	
