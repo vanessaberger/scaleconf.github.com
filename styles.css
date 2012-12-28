@@ -593,9 +593,30 @@ span.bolder {
 	margin-left: 28px;	
 }
 
-#page-content #schedule-page h2 {
-	margin-bottom: 6px;	
+#page-content #schedule-page #page-heading-schedule h1  {
+	font-family: Quicksand, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 28px;
+	color: #59c9e1;
+	margin-top: 40px;
+}
+
+#page-content #schedule-page #intro-schedule {
+	margin-bottom: 50px;	
+}
+
+#page-content #schedule-page #intro-schedule a:link, #page-content #schedule-page #intro-schedule a:hover, #page-content #schedule-page #intro-schedule a:visited {
+	text-decoration: none;	
+	color:#f7941d;
 	
+}
+
+#page-content #schedule-page #intro-schedule p {
+	font-size: 14px;	
+}
+
+#page-content #schedule-page h2 {
+	margin-bottom: 6px;		
 }
 
 table {
@@ -637,9 +658,20 @@ tbody td.descr, th.descr {
 	width: 400px;		
 }
 
-tbody td.event span.speaker a:link, tbody td.event span.speaker a:hover, tbody td.event span.speaker a:visited {
-	color: #59c9e1;
-	text-decoration: none;
-		
+tbody td.event img {
+	padding-right: 6px;	
+}
 	
+tbody td.event span.speaker a:link, tbody td.event span.speaker a:hover, tbody td.event span.speaker a:visited {
+	color: #204e5e;
+	text-decoration: none;		
+}
+
+tbody td.descr span.descr-heading {
+	font-size: 14px;
+	color:#204e5e; 	
+}
+
+tbody td p {
+	margin-bottom: 0px;		
 }
