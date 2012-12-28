@@ -689,14 +689,63 @@ tbody td p {
 
 /**PURCHASE PAGE */
 
-#page-content #page-heading h1.earlybird {
-	margin-bottom: 3px;	
-	
+#purchase-pg #page-heading h1 {
+	margin-left: 0px;	
+	margin-top: 20px;
+	margin-bottom: 2px;	
 }
 
 
-#page-content #page-heading h2.discount {
-	margin-top: 0px;	
+#purchase-pg #page-heading p.intro {
+	font-size: 14px;
+	margin-top: 5px;
+	line-height: 19px;	
+	margin-bottom: 30px;
+	
+}
+
+#page-content #purchase-pg #conference {
+	padding: 10px;	
+	background-color: #F0EDED;
+}
+
+#page-content #purchase-pg #workshops {
+	padding: 10px;	
+	background-color: #F0EDED;
+}
+
+#page-content #purchase-pg {
+	overflow: hidden;	
 	margin-left: 28px;
+}
+
+#page-content p.points {
+	font-size: 14px;
+	color: #333;		
+}
+
+#page-content #purchase-pg span.highlight {
+	color: #204e5e;
+	font-weight: bold;	
+	
+}
+
+#page-content #purchase-content {
+	width: 500px;	
+	float: left;	
+}
+
+#page-content #purchase-boxes {
+	width: 300px;
+	margin-left: 600px;
+	border-left: dashed 1px #999;	
+}
+
+#page-content #purchase-boxes #earlybird {
+	background-color:  #B9E7F3;
+}
+
+#page-content #purchase-boxes #important-content {
+	background-color:  #B9E7F3;
 	
 }
