@@ -299,6 +299,11 @@ span.bolder {
 	margin-left: 389px;	
 	padding: 1px;		
 }
+
+.bottom-content a:link, .bottom-content a:hover, .bottom-content a:visited {
+	text-decoration: none;
+	color: #f7941d;
+}
 	
 .button a:link, .button a:hover, .button a:visited {
 	font-size: 12px;
@@ -331,6 +336,12 @@ span.bolder {
 #page-content #sponsors ul li {	
 	display: inline-block;
 	margin-right: 200px;
+}
+
+#page-content #sponsors a:link, #page-content #sponsors a:hover, #page-content #sponsors a:visited {
+	text-decoration: none;
+	color: #f7941d;
+	font-weight: bold;
 }
 	
 /**SPEAKER PAGE */	
@@ -565,7 +576,7 @@ span.bolder {
 
 #page-content #contact-details h2 {
 	margin-bottom: 0px;	
-	margin-top: 20px;
+	margin-top: 26px;
 	color: #f7941d;
 }
 
@@ -579,7 +590,8 @@ span.bolder {
 #page-content #contact-details p.details {
 	font-family: Quicksand, Arial, Helvetica, sans-serif;
 	color:  #7d7d7d;
-	font-size: 17px;
+	font-size: 16px;
+	margin-top: 2px;
 }
 
 #page-content #contact-details p.details img {
@@ -607,8 +619,7 @@ span.bolder {
 
 #page-content #schedule-page #intro-schedule a:link, #page-content #schedule-page #intro-schedule a:hover, #page-content #schedule-page #intro-schedule a:visited {
 	text-decoration: none;	
-	color:#f7941d;
-	
+	color:#f7941d;	
 }
 
 #page-content #schedule-page #intro-schedule p {
@@ -674,4 +685,18 @@ tbody td.descr span.descr-heading {
 
 tbody td p {
 	margin-bottom: 0px;		
+}
+
+/**PURCHASE PAGE */
+
+#page-content #page-heading h1.earlybird {
+	margin-bottom: 3px;	
+	
+}
+
+
+#page-content #page-heading h2.discount {
+	margin-top: 0px;	
+	margin-left: 28px;
+	
 }
